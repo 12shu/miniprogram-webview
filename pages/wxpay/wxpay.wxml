@@ -1,0 +1,7 @@
+<view>
+  <view class="tips" hidden="{{showBtn == '0'}}">
+    <text>点击下方按钮</text>
+    <text>授权支付</text>
+  </view>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" hidden="{{showBtn == '0'}}" type="primary" class="btn">点我授权</button>
+</view> 
